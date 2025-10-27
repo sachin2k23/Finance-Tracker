@@ -1,0 +1,5 @@
+@import '../shared.css';
+
+.chart-container {
+  height: 16rem;
+}

@@ -1,0 +1,33 @@
+@import '../shared.css';
+
+.file-upload-area {
+  border: 2px dashed var(--border-color);
+  border-radius: 0.5rem;
+  padding: 3rem;
+  text-align: center;
+  transition: border-color 0.2s ease;
+  cursor: pointer;
+}
+
+.file-upload-area:hover {
+  border-color: var(--primary-color);
+}
+
+.file-upload-icon {
+  width: 3rem;
+  height: 3rem;
+  color: var(--secondary-color);
+  margin: 0 auto 1rem;
+}
+
+.file-upload-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.file-upload-subtitle {
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}

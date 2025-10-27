@@ -1,0 +1,15 @@
+.select {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.select:focus {
+  outline: 2px solid var(--primary-color);
+  border-color: transparent;
+}

@@ -1,0 +1,41 @@
+.input-group {
+  width: 100%;
+}
+
+.input-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 0.25rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.input:focus {
+  outline: 2px solid var(--primary-color);
+  border-color: transparent;
+}
+
+.input.error {
+  border-color: var(--error-color);
+}
+
+.input.error:focus {
+  outline: 2px solid var(--error-color);
+}
+
+.input-error {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: var(--error-color);
+}
