@@ -27,4 +27,4 @@ Finance Tracker is a React.js web app to track and analyze sales, expenses, inve
 
 
 
-*Last updated on: 29-Oct-2025*
+*Last updated on: 30-Oct-2025*
